@@ -26,6 +26,8 @@ public class Main {
             System.out.println(Vigenere.encryptString(plaintext, key));
         } else if (ciphertext != null && key != null) {
             System.out.println(Vigenere.decryptString(ciphertext, key));
+        } else if (ciphertext != null) {
+            System.out.println(Vigenere.decryptString(ciphertext));
         }
     }
 }
